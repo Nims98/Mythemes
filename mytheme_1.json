@@ -52,7 +52,7 @@
                     "properties": {
                         "root_icon": ""
                     },
-                    "powerline_symbol": "",
+                    // "powerline_symbol": "",
                     "style": "powerline",
                     "type": "root"
                 },
@@ -63,13 +63,13 @@
                         "mapped_locations": {
                             "C:\\Users\\Nirmala\\Desktop": "   ",
                             "C:\\Users\\Nirmala\\Desktop\\Dev": "謁",
-                            "C:\\Users\\Nirmala": "",
+                            "C:\\Users\\Nirmala": " ",
                             "C:\\Windows\\System32": ""
                         },
                         "postfix": "<#FFFFFF> ~></>",
-                        "prefix": "<#00B9FF>  </><#e9e9e9>:/</>",
+                        "prefix": "<#00B9FF> </><#e9e9e9>:\\</>",
                         "enable_hyperlink": false,
-                        "folder_separator_icon": " |",
+                        "folder_separator_icon": "|",
                         "folder_icon": "<#FFFF12> </>",
                         "style": "letter"
                     },
