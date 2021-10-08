@@ -3,11 +3,10 @@
     "blocks": [{
             "alignment": "left",
             "segments": [{
-                    "background": "#161B22",
                     "foreground": "#F5F5F5",
                     "leading_diamond": "",
                     "properties": {
-                        "prefix": "  ",
+                        "prefix": "  ",
                         "alpine": "",
                         "arch": "",
                         "centos": "",
@@ -26,38 +25,32 @@
                         "wsl": "",
                         "wsl_separator": " on "
                     },
-                    "trailing_diamond": "",
                     "style": "powerline",
                     "type": "os"
                 },
                 {
-                    // "background": "#003543",
                     "foreground": "#fafafa",
                     "invert_powerline": false,
                     "properties": {
-                        "prefix": " @",
+                        "prefix": " ",
                         "display_host": false,
                         "display_default": false,
                         "host_color": "#d6d6d6",
                         "user_color": "#BFFF10",
                         "user_info_separator": "<#7a7a7a></>"
                     },
-                    "powerline_symbol": "",
                     "style": "powerline",
                     "type": "session"
                 },
                 {
-                    // "background": "#003543",
                     "foreground": "#e9e9e9",
                     "properties": {
                         "root_icon": ""
                     },
-                    // "powerline_symbol": "",
                     "style": "powerline",
                     "type": "root"
                 },
                 {
-                    // "background": "#161B22",
                     "foreground": "#ffb026",
                     "properties": {
                         "mapped_locations": {
@@ -73,24 +66,11 @@
                         "folder_icon": "<#FFFF12> </>",
                         "style": "letter"
                     },
-                    // "powerline_symbol": "",
                     "style": "powerline",
                     "type": "path"
                 },
+
                 {
-                    // "background": "#2f2f2f",
-                    "foreground": "#fafafa",
-                    "properties": {
-                        "postfix": "",
-                        "prefix": "",
-                        "text": ""
-                    },
-                    "style": "diamond",
-                    // "powerline_symbol": "",
-                    "type": "text"
-                },
-                {
-                    // "background": "#161B22",
                     "foreground": "#EEF6FF",
                     "properties": {
                         "ahead_color": "#C2C206",
@@ -100,37 +80,23 @@
                         "display_status": true,
                         "display_upstream_icon": true,
                         "local_changes_color": "#EEF6FF",
-                        "prefix": "<#616163> git:</>",
+                        "prefix": "<#616163>  :</>",
                         "staging_color": "#8A4FFF",
                         "status_colors_enabled": true,
                         "working_color": "#ad49ff"
                     },
-                    // "powerline_symbol": "",
                     "style": "powerline",
                     "type": "git"
-                },
-                {
-                    // "background": "#2f2f2f",
-                    "foreground": "#fafafa",
-                    "properties": {
-                        "postfix": "",
-                        "prefix": "",
-                        "text": ""
-                    },
-                    "style": "diamond",
-                    // "trailing_diamond": "",
-                    "type": "text"
                 }
+
             ],
             "type": "prompt"
         },
         {
             "alignment": "right",
             "segments": [{
-                    // "background": "#161B22",
                     "foreground": "#62d365",
                     "invert_powerline": true,
-                    // "powerline_symbol": "",
                     "properties": {
                         "display_version": true,
                         "postfix": "  "
@@ -139,10 +105,8 @@
                     "type": "node"
                 },
                 {
-                    // "background": "#161B22",
                     "foreground": "#00acd7",
                     "invert_powerline": true,
-                    // "powerline_symbol": "",
                     "properties": {
                         "display_version": true,
                         "postfix": "  "
@@ -151,10 +115,8 @@
                     "type": "go"
                 },
                 {
-                    // "background": "#161B22",
                     "foreground": "#4063D8",
                     "invert_powerline": true,
-                    // "powerline_symbol": "",
                     "properties": {
                         "display_version": true,
                         "postfix": "  "
@@ -163,10 +125,8 @@
                     "type": "julia"
                 },
                 {
-                    // "background": "#161B22",
                     "foreground": "#FFEB41",
                     "invert_powerline": true,
-                    // "powerline_symbol": "",
                     "properties": {
                         "display_mode": "context",
                         "display_version": true,
@@ -177,10 +137,8 @@
                     "type": "python"
                 },
                 {
-                    // "background": "#161B22",
                     "foreground": "#AE1401",
                     "invert_powerline": true,
-                    // "powerline_symbol": "",
                     "properties": {
                         "display_mode": "files",
                         "display_version": true,
@@ -190,10 +148,8 @@
                     "type": "ruby"
                 },
                 {
-                    // "background": "#161B22",
                     "foreground": "#FEAC19",
                     "invert_powerline": true,
-                    // "powerline_symbol": "",
                     "properties": {
                         "display_mode": "files",
                         "display_version": false,
@@ -209,7 +165,6 @@
                     ],
                     "foreground": "#ffffff",
                     "invert_powerline": true,
-                    "powerline_symbol": "",
                     "properties": {
                         "display_default": false,
                         "postfix": "  "
@@ -218,23 +173,7 @@
                     "type": "aws"
                 },
 
-
                 {
-                    // "background": "#2f2f2f",
-                    "foreground": "#fafafa",
-                    "invert_powerline": true,
-                    "properties": {
-                        "postfix": "",
-                        "prefix": "",
-                        "text": ""
-                    },
-                    "style": "powerline",
-                    // "powerline_symbol": "",
-                    "type": "text"
-                },
-
-                {
-                    // "background": "#eeeeee",
                     "foreground": "#C2FF6C",
                     "invert_powerline": true,
                     "properties": {
@@ -242,7 +181,6 @@
                         "time_format": "3:04:05 PM"
                     },
                     "style": "powerline",
-                    // "powerline_symbol": "",
                     "type": "time"
                 }
             ],
@@ -272,10 +210,8 @@
                     "type": "text"
                 },
                 {
-                    // "background": "#ff0022",
                     "foreground": "#cacaca",
                     "invert_powerline": true,
-                    // "powerline_symbol": "",
                     "properties": {
                         "postfix": " 羽 "
                     },
@@ -283,9 +219,7 @@
                     "type": "executiontime"
                 },
                 {
-                    // "background": "#ff0022",
                     "foreground": "#cccccc",
-                    // "powerline_symbol": "",
                     "invert_powerline": true,
                     "properties": {
                         "always_enabled": true,
@@ -297,17 +231,6 @@
                     },
                     "style": "powerline",
                     "type": "exit"
-                },
-                {
-                    // "background": "#ff0022",
-                    "properties": {
-                        "postfix": "",
-                        "prefix": "",
-                        "text": ""
-                    },
-                    // "trailing_diamond": "",
-                    "style": "diamond",
-                    "type": "text"
                 }
             ],
             "type": "rprompt"
