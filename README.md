@@ -1,1 +1,2 @@
-### This repo contains custom theme for windows powershell
+### Hello there !!!
+This repo contains custom theme for windows powershell.
